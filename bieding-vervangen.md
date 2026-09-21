@@ -1,17 +1,20 @@
 ```mermaid
+---
+title: Vervanging van een bieding
+---
 graph TD
-    A{Does the player wish to change his call because it was not his intended call?}
-    A -->|No| B{Has LHO called?}
-    B -->|Yes| C[It is too late to change the call.]
-    B -->|No| D{Was the original call insufficient?}
-    D -->|Yes| E[Go to Law 27 Insufficient bid. See Appendix A.]
-    D -->|No| F{Was the original call illegal?}
-    F -->|Yes| G[Go to the appropriate Law.]
-    F -->|No| H[The original call stands and the auction continues Law 25B2]
-    A -->|Yes| I{Has partner called?}
-    I -->|Yes| J[It is too late to change the call. Law 25A4]
-    I -->|No| K{Has LHO called?}
-    K -->|Yes| L[LHO's call is withdrawn. Law 25A6]
-    K -->|No| M[Offender's call can be changed Law 25A1]
+    A{Heeft de speler bewust een bieding gedaan? Controleer de hand.}
+    A -->|Yes| B{Heeft de linkertegenstrever geboden?}
+    B -->|No| C[Het is te laat om de bieding te veranderen.]
+    B -->|No| D{Was de oorspronkelijke bieding onvoldoende?}
+    D -->|Yes| E[Pas onvoldoende bod toe.]
+    D -->|No| F{Was de oorspronkelijke bieding ontoelaatbaar?}
+    F -->|Yes| G[Annuleer de ontoelaatbare bieding. De vervanging wordt toegestaan. Voorspeelbeperkingen.]
+    F -->|No| H[De oorspronkelijke bieding blijft behouden en het bieden gaat verder. Voorspeelbeperkingen.]
+    A -->|Yes| I{Heeft partner geboden?}
+    I -->|Yes| J[Het is te laat om de bieding te vervangen]
+    I -->|No| K{Heeft de linkertegenstrever geboden?}
+    K -->|Yes| L[De bieding van de linkertegenstrever wordt weggenomen. De vervanging wordt toegelaten. De weggenomen bieding is ongeoorloofde informatie voor het overtredende paar. De bieding die vervangen werd bevat geen ongeoorloofde informatie.]
+    K -->|No| M[De vervanging wordt toegelaten. Er is geen ongeoorloofde informatie.]
     L --> M
 ```
