@@ -1,5 +1,7 @@
 ```mermaid
----(Her)dubbel voor de beurt
+---
+title: (Her)dubbel voor de beurt
+---
 graph TD
     Z[NB: First check whether such a Double/Redouble is admissible - Law 36] --> A
     A{Whose turn was it?}
