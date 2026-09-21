@@ -16,7 +16,7 @@ graph TD
     H -->|Nee| J[De tegenstrevers krijgen 1 slag van de overtreders.]
     J --> K{Heeft de overtredende partij slechts 1 slag gemaakt na de verzaking?}
     K -->|Ja| L[Geen verdere rechtzetting]
-    K -->|Nee| M{Heeft de overtredende SPELER de slag van de verzaking gewonnen (door te troeven)?}
+    K -->|Nee| M{"Heeft de overtredende SPELER de slag van de verzaking gewonnen (door te troeven)?"}
     M -->|Ja| N[De tegenstrevers krijgen een tweede slag van de overtreders.]
     M -->|Nee| O[Denkt de niet-overtredende partij meer slagen te kunnen maken zonder de verzaking dan degenen waarmee ze gecompenseerd werden?] -->P
     N --> O
