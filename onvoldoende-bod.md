@@ -1,6 +1,6 @@
 ```mermaid
 ---
-Onvoldoende bod
+title: Onvoldoende bod
 ---
 graph TD
     A[Wil de linkertegenstrever van de overtreder het onvoldoende bod accepteren?] -->|Ja| B[Geen rechtzetting]
