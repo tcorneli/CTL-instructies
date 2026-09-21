@@ -15,5 +15,5 @@ graph TD
     G -->|Ja| H[Geen verdere rechtzetting.]
     G -->|Nee| I[Partner van de overtreder MOET passen bij de eerstvolgende beurt. Ongeoorloofde informatie/voorspeelbeperkingen.]-->J{Wordt de overtreder een tegenspeler?}
     J -->|Ja| K[De eerste keer dat de partner van de overtreder aan slag is, mag de leider verbieden een kleur voor te spelen die niet getoond werd door de overtreder in het bieden.]
-    L -->|Nee| M[Geen verdere rechtzetting]
+    J -->|Nee| L[Geen verdere rechtzetting]
 ```
