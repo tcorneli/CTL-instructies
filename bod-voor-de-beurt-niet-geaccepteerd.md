@@ -14,9 +14,9 @@ graph TD
     D --> H{Is de bieding vergelijkbaar?}
     F --> H
     H -->|Ja| I[Geen rechtzetting]
-    I --> K[Geen voorspeelbeperking]
+    I --> N[Geen voorspeelbeperking]
     H -->|Nee| J[Partner van de overtreder MOET passen bij de eerstvolgende beurt.]
     J --> L{Wordt de overtreder een tegenspeler?}
-    L -->|Nee| K
-    L -->|Ja| M[Voorspeelbeperking]
+    L -->|Ja| M[De eerste keer dat de partner van de overtreder aan slag is, mag de leider verbieden een kleur voor te spelen die niet getoond werd door de overtreder in het bieden.]
+    L -->|Nee| N
 ```
