@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A[Law 27A: Does offender's LHO want to accept the insufficient bid?] -->|Yes| B[Auction continues with no rectification.]
     A -->|No| C[Law 27B: It must be corrected by any sufficient bid or a pass]
@@ -9,3 +10,4 @@ graph TD
     H --> I{Does offender become a defender?}
     I -->|No| J[No Lead restriction.]
     I -->|Yes| K[Law 26 Lead Restrictions will apply: Declarer may prohibit offender's partner from leading any suit not specified by the offender.]
+```
