@@ -1,18 +1,21 @@
 ```mermaid
+---
+title: Kaart getoond nadat het bieden voor een paar begonnen is en voordat de speelperiode begint
+---
 graph TD
-    A[Leave the card face up in front of the player until the auction period ends] --> B{Was it more than one card?}
-    B -->|No| C{Was it any card led prematurely?}
-    C -->|No| D{Was it a single card of honour rank that was dropped?}
-    B -->|Yes| E[Offender's partner must pass when next it is his turn to call]
-    C -->|Yes| E
-    D -->|Yes| E
-    D -->|No| F[No further auction restrictions]
-    E --> G{Does offender become a defender?}
-    F --> H{Does offender become a defender?}
-    G -->|No| I[No lead restriction - cards picked up]
-    H -->|No| I
-    G -->|Yes| J[The cards become major penalty cards]
-    H -->|Yes| K[Law 50C the card becomes a minor penalty card]
-    J --> L[Law 50D: Disposal of a major penalty card]
+    A[Laat de kaart met de beeldzijde naar boven voor de speler liggen tot het bieden voorbij is.] --> B{Was het meer dan 1 kaart?}
+    B -->|Nee| C{Was de kaart een uitkomst?}
+    C -->|Nee| D{Was de kaart 1 honneur die neerviel?}
+    B -->|Ja| E[Partner van de overtreder MOET passen bij de eerstvolgende beurt]
+    C -->|Ja| E
+    D -->|Ja| E
+    D -->|Nee| F[Geen rechtzettingen tijdens het bieden]
+    E --> G{Wordt de overtreder een tegenspeler?}
+    F --> H{Wordt de overtreder een tegenspeler?}
+    G -->|Nee| I[Geen rechtzetting. De kaarten worden terug toegevoegd aan de hand.]
+    H -->|Nee| I
+    G -->|Ja| J[De kaarten worden grote strafkaarten]
+    H -->|Ja| K[De kaart wordt een kleine strafkaart.]
+    J --> L[Behandel de grote strafkaart.]
     K --> L
 ```
