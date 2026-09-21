@@ -12,6 +12,6 @@ graph TD
     E -->|Bod| D
     E -->|Pas| F["Overtreder MOET (her)dubbel herhalen. Geen verdere rechtzetting"]
     D --> G{Is de bieding van de overtreder vergelijkbaar?}
-    G -->|Yes| H[Geen verdere rechtzetting.]
-    G -->|No| I[Partner van de overtreder MOET passen bij de eerstvolgende beurt. Ongeoorloofde informatie/voorspeelbeperkingen.]
+    G -->|Ja| H[Geen verdere rechtzetting.]
+    G -->|Nee| I[Partner van de overtreder MOET passen bij de eerstvolgende beurt. Ongeoorloofde informatie/voorspeelbeperkingen.]
 ```
