@@ -11,6 +11,6 @@ graph TD
     F -->|Ja| G[Geen enkele rechtzetting]
     F -->|Nee| H[De partner van de overtreder MOET bij ELKE volgende beurt passen.]
     H --> I{Wordt de overtreder een tegenspeler?}
-    I -->|Nee| J[Geen voorspeelbeperking]
-    I -->|Ja| K[Voorspeelbeperking]
+    I -->|Ja| J[De eerste keer dat de partner van de overtreder aan slag is, mag de leider verbieden een kleur voor te spelen die niet getoond werd door de overtreder in het bieden.]
+    I -->|Nee| K[Geen verdere rechtzetting]
 ```
