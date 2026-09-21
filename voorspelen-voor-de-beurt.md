@@ -8,8 +8,7 @@ graph TD
     B -->|Ja| C[De leider wordt de dummy en de dummy wordt de leider. Geen rechtzetting.]
     B -->|Nee| D{Wil de leider de uitkomst accepteren en de leider blijven?}
     D -->|Ja| E[Dummy legt de kaarten op tafel. De leider is aan beurt voor de tweede kaart in de slag.]
-    D -->|Nee| F[Law 54D]
-    F --> G
+    D -->|Nee| G
     A -->|Nee| G{"Wil een tegenstrever het voorspelen aanvaarden? (keuze van de linkertegenstrever van de overtreder primeert)"}
     G -->|Ja| H[Geen rechtzetting]
     G -->|Nee| I{Wie heeft voor de beurt voorgespeeld?}
