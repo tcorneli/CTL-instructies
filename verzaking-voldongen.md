@@ -5,7 +5,7 @@ title: Voldongen verzaking
 graph TD
     A{Heeft de overtredende partij de slag van de verzaking of een volgende slag gemaakt?}
     A -->|Nee| B[Geen rechtzetting]
-    A -->|Ja| C{Was de verzaking een tweede verzaking in dezelde kleur (die voorgespeled is)?}
+    A -->|Ja| C{"Was de verzaking een tweede verzaking in dezelde kleur (die voorgespeeld is)?"}
     C -->|Ja| D[Negeer de tweede verzaking. Enkel de eerste verzaking wordt behandeld.]
     C -->|Nee| E{Was de verzaking in dummy of een andere kaart die gespeeld moest worden en die met de beeldzijde naar boven lag voor de slag begon?}
     E -->|Ja| F[Geen rechtzetting tenzij tegenpartij recht had op meer slagen zonder verzaking] -->P["Contacteer de wedstrijdleider met alle gespeelde slagen. (Laat de kaarten zitten zoals ze gespeeld zijn en noteer alle slagen achteraf.)"]
