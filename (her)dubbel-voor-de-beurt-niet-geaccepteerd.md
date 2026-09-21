@@ -1,17 +1,17 @@
 ```mermaid
 ---
-title: (Her)dubbel voor de beurt
+title: (Her)dubbel voor de beurt niet aanvaard
 ---
 graph TD
-    Z[NB: First check whether such a Double/Redouble is admissible - Law 36] --> A
-    A{Whose turn was it?}
-    A -->|Offender's LHO| B[Treat it as a change of call. Law 25]
-    A -->|Offender's partner| C[Law 32B: Offender's partner may make any legal call. Law 16C2 applies]
-    C --> D[Law 32A2: Offender can make any legal call at his turn]
-    A -->|Offender's RHO| E{What action does RHO take?}
-    E -->|Bid| D
-    E -->|Pass| F[Law 32B1: Offender MUST repeat his double/redouble. No further rectification]
-    D --> G{Is Offender's call a Comparable Call?}
-    G -->|Yes| H[Auction continues with no further rectification. Consider Law 23C.]
-    G -->|No| I[Offender's partner must PASS at his next turn. Law 16C and 26B may apply.]
+    Z[NB: Controleer eerst of de (her)dubbel toegelaten is] --> A
+    A{Wie was aan de beurt?}
+    A -->|Linkertegenstrever van de overtreder| B[Behandel dit als een verandering van de bieding]
+    A -->|Partner van de overtreder| C[De partner van de overtreder mag alles bieden. Ongeoorloofde informatie]
+    C --> D[Overtreder mag alles bieden.]
+    A -->|Rechtertegenstrever van de overtreder| E{Wat doet de rechtertegenstrever?}
+    E -->|Bod| D
+    E -->|Pas| F[Overtreder MOET (her)dubbel herhalen. Geen verdere rechtzetting]
+    D --> G{Is de bieding van de overtreder vergelijkbaar?}
+    G -->|Yes| H[Geen verdere rechtzetting.]
+    G -->|No| I[Partner van de overtreder MOET passen bij de eerstvolgende beurt. Ongeoorloofde informatie/voorspeelbeperkingen.]
 ```
