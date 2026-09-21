@@ -1,10 +1,13 @@
 ```mermaid
+---
+title: Verzaking
+---
 graph TD
-    A{Law 63A1 and A2: Has offending side played to or indicated a lead to the next trick?}
-    A -->|No| B{Law 63A3 and 4: Has offending side made a claim or concession?}
-    B -->|No| C[The revoke is not established and must be corrected under Law 62A.]
-    A -->|Yes| D{Was the revoke on trick 12?}
-    B -->|Yes| D
-    D -->|Yes| E[The revoke must be corrected under Law 62D.]
-    D -->|No| F[The revoke is established. See Law 64. See Appendix J.]
+    A{Heeft de overtredende partij gespeeld in de volgende slag?}
+    A -->|Nee| B{Heeft de overtredende partij slagen geclaimd of afgestaan?}
+    B -->|Nee| C[De verzaking is niet voldongen.]
+    A -->|Ja| D{Werd er verzaakt in de 12de slag?}
+    B -->|Ja| D
+    D -->|Ja| E[De verzaking moet hersteld worden.]
+    D -->|Nee| F[De verzaking is voldongen.]
 ```
