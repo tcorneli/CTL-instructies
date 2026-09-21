@@ -1,8 +1,10 @@
 ```mermaid
+---
+title: Verzaking is niet voldongen
+---
 graph TD
-    A[Law 62A: It must be corrected.] --> B[Law 62C1 and 62C2: Each member of the non-offending side may withdraw any card played after the revoke...]
-    B --> C{Was the revoker a defender or declarer/dummy?}
-    C -->|Defender| D[Law 62B1: The revoke card becomes a major penalty card]
-    C -->|Declarer/dummy| E[Law 62B2: The card is replaced in the revoker's hand without rectification.]
-    D --> F[Law 50D: Disposal of a major penalty card. Declarer can exercise options.]
+    A[De verzaking moet hersteld worden.] --> B[Elke speler van de niet-overtredende partij mag elke kaart gespeeld na de verzaking terugnemen...]
+    B --> C{Wie was de verzaker?}
+    C -->|Tegenspeler| D[De foutief gespeelde kaart wordt een grote strafkaart.]
+    C -->|Leider/dummy| E[De foutief gespeelde kaart wordt terug toegevoegd aan de hand van de overtreder.]
 ```
