@@ -2,7 +2,7 @@
 ---
 title: Voldongen verzaking
 ---
-%%{init: {"flowchart": {"defaultRenderer": "elk"}}}%%
+%%{init: {"flowchart": {"defaultRenderer": "elk", "wrappingWidth": 500}}}%%
 graph TD
     A{Heeft de overtredende partij de slag van de verzaking of een volgende slag gemaakt?}
     A -->|Nee| B[Geen rechtzetting]
