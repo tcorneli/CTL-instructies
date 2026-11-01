@@ -1,8 +1,8 @@
 ```mermaid
-%%{init: {"flowchart": {"defaultRenderer": "elk"}}}%%
 ---
 title: Voldongen verzaking
 ---
+%%{init: {"flowchart": {"defaultRenderer": "elk"}}}%%
 graph TD
     A{Heeft de overtredende partij de slag van de verzaking of een volgende slag gemaakt?}
     A -->|Nee| B[Geen rechtzetting]
