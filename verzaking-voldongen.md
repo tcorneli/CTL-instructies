@@ -1,4 +1,5 @@
 ```mermaid
+%%{init: {"flowchart": {"defaultRenderer": "elk"}}}%%
 ---
 title: Voldongen verzaking
 ---
